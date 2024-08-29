@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left:40%;
+    color: #fff;
+}
+button{
+    padding: 10px 35px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: salmon;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    cursor: pointer;
+}
+button::after{
+    content: "";
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: rgb(20, 107, 165);
+    border-radius: 5px;
+}
+.add::after{
+    left: 50%;
+}
+.pause{
+position: relative;
+left: 20px;
+}
+
+.volumIcon{
+    position: absolute;
+    top: 83%;
+    left: 5%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+#loader{
+    width: 10vw;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    z-index: 2;
+}
+

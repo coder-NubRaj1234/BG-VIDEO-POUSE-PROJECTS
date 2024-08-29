@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VIDEO_PROJECTS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+    </head>
+    <body>
+        <main>
+            <div class="preloader">
+                <img id="loader" src="spinning-dots.svg" alt="">
+            </div>
+            <video autoplay loop  id="video">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <h1>VIDEO PROJECTS</h1>
+            <button id="playPouseBtn">
+                <span class="play">Play</span>
+                <span class="pause">Pause</span>
+            </button>
+            <div class="volumIcon">
+                <i id="xmark" class="fa-solid fa-volume-xmark"></i>
+            </div>
+        </main>       
+        <script src="script.js" async defer></script>
+    </body>
+</html>
